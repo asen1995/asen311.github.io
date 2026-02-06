@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "title": {
+      "en": "Asen Nikolaev - Official Web Site",
+      "bg": "Асен Николаев - Официален уеб сайт",
+      "de": "Asen Nikolaev - Offizielle Webseite"
+    },
+    "favicon": "assets/websiteicon.jpg",
+    "logoText": "AN"
+  },
+
+  "languages": {
+    "available": [
+      { "code": "en", "label": "EN" },
+      { "code": "bg", "label": "BG" },
+      { "code": "de", "label": "DE" }
+    ],
+    "default": "en"
+  },
+
+  "navigation": [
+    { "href": "#about", "label": { "en": "About", "bg": "За мен", "de": "Über mich" } },
+    { "href": "#skills", "label": { "en": "Skills", "bg": "Умения", "de": "Fähigkeiten" } },
+    { "href": "#experience", "label": { "en": "Experience", "bg": "Опит", "de": "Erfahrung" } },
+    { "href": "#projects", "label": { "en": "Projects", "bg": "Проекти", "de": "Projekte" } }
+  ],
+
+  "hero": {
+    "photo": "assets/new-picture.PNG",
+    "name": { "en": "Asen Nikolaev", "bg": "Асен Николаев", "de": "Asen Nikolaev" },
+    "title": { "en": "Senior Java Software Engineer", "bg": "Старши Java Софтуерен Инженер", "de": "Senior Java Software-Ingenieur" },
+    "subtitle": {
+      "en": "Building scalable solutions for the financial and e-commerce industries with 8+ years of experience.",
+      "bg": "Изграждане на мащабируеми решения за финансовата и е-търговска индустрия с 8+ години опит.",
+      "de": "Entwicklung skalierbarer Lösungen für die Finanz- und E-Commerce-Branche mit über 8 Jahren Erfahrung."
+    },
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/asen1995" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/asen-nikolaev-414586133/" }
+    ]
+  },
+
+  "about": {
+    "heading": { "en": "About Me", "bg": "За мен", "de": "Über mich" },
+    "paragraphs": [
+      {
+        "en": "I'm a Senior Java Software Engineer based in Sofia, Bulgaria, with a Master's degree from the Technical University of Sofia (2020). I specialize in Java, Spring Boot, Angular, and cloud platforms like Azure and AWS.",
+        "bg": "Аз съм старши Java софтуерен инженер, базиран в София, България, с магистърска степен от Техническия университет в София (2020). Специализирам в Java, Spring Boot, Angular и облачни платформи като Azure и AWS.",
+        "de": "Ich bin ein Senior Java Software-Ingenieur mit Sitz in Sofia, Bulgarien, mit einem Masterabschluss der Technischen Universität Sofia (2020). Ich bin spezialisiert auf Java, Spring Boot, Angular und Cloud-Plattformen wie Azure und AWS."
+      },
+      {
+        "en": "Over the past 8+ years, I've built and maintained systems for the banking industry, e-commerce platforms, and enterprise solutions. I enjoy leading teams, mentoring developers, and turning complex business requirements into clean, maintainable code.",
+        "bg": "През последните 8+ години съм изграждал и поддържал системи за банковата индустрия, платформи за електронна търговия и корпоративни решения. Обичам да ръководя екипи, да наставлявам разработчици и да превръщам сложни бизнес изисквания в чист, поддържаем код.",
+        "de": "In den letzten 8+ Jahren habe ich Systeme für die Bankenbranche, E-Commerce-Plattformen und Unternehmenslösungen entwickelt und gewartet. Ich führe gerne Teams, betreue Entwickler und verwandle komplexe Geschäftsanforderungen in sauberen, wartbaren Code."
+      },
+      {
+        "en": "In my spare time, I develop educational Android applications available on Google Play.",
+        "bg": "В свободното си време разработвам образователни Android приложения, достъпни в Google Play.",
+        "de": "In meiner Freizeit entwickle ich lehrreiche Android-Anwendungen, die auf Google Play verfügbar sind."
+      }
+    ]
+  },
+
+  "skills": {
+    "heading": { "en": "I Love These Technologies", "bg": "Обичам тези технологии", "de": "Ich liebe diese Technologien" },
+    "categories": {
+      "Backend": {
+        "label": { "en": "Backend", "bg": "Backend", "de": "Backend" },
+        "items": [
+          { "name": "Java", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+          { "name": "Spring", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
+          { "name": "Python", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+          { "name": "Maven", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" },
+          { "name": "Kafka", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" },
+          { "name": "RabbitMQ", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg" }
+        ]
+      },
+      "Databases": {
+        "label": { "en": "Databases", "bg": "Бази данни", "de": "Datenbanken" },
+        "items": [
+          { "name": "PostgreSQL", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
+          { "name": "Oracle", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" },
+          { "name": "MongoDB", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+          { "name": "Redis", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" }
+        ]
+      },
+      "Frontend": {
+        "label": { "en": "Frontend", "bg": "Frontend", "de": "Frontend" },
+        "items": [
+          { "name": "Angular", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg" },
+          { "name": "TypeScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
+          { "name": "JavaScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" }
+        ]
+      },
+      "CloudDevOps": {
+        "label": { "en": "Cloud & DevOps", "bg": "Облак & DevOps", "de": "Cloud & DevOps" },
+        "items": [
+          { "name": "Docker", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+          { "name": "AWS", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" },
+          { "name": "Azure", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
+          { "name": "Kubernetes", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" },
+          { "name": "Jenkins", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" },
+          { "name": "Git", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" }
+        ]
+      },
+      "Mobile": {
+        "label": { "en": "Mobile", "bg": "Mobile", "de": "Mobile" },
+        "items": [
+          { "name": "Android", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" }
+        ]
+      },
+      "AI": {
+        "label": { "en": "AI", "bg": "AI", "de": "AI" },
+        "items": [
+          { "name": "Claude AI", "icon": "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/anthropic.svg" }
+        ]
+      }
+    }
+  },
+
+  "experience": {
+    "heading": { "en": "Experience", "bg": "Професионален опит", "de": "Berufserfahrung" },
+    "jobs": [
+      {
+        "title": "Senior Java Software Engineer",
+        "company": "TechPods",
+        "dates": {
+          "en": "Aug 2023 — Present",
+          "bg": "Авг 2023 — Сега",
+          "de": "Aug 2023 — Heute"
+        },
+        "badge": { "en": "Remote", "bg": "Дистанционно", "de": "Remote" },
+        "description": {
+          "en": "Played a key role in evolving the Tirebuyer core platform into Treadsy, a white-label solution. Onboarded multiple clients driving significant growth for partners.",
+          "bg": "Ключова роля в развитието на основната платформа Tirebuyer в Treadsy, white-label решение. Свързване на множество клиенти, осигурявайки значителен растеж за партньорите.",
+          "de": "Schlüsselrolle bei der Weiterentwicklung der Tirebuyer-Kernplattform zu Treadsy, einer White-Label-Lösung. Einarbeitung mehrerer Kunden mit signifikantem Wachstum für Partner."
+        },
+        "achievements": {
+          "en": [
+            "Acted as team leader, coordinating efforts to deliver impactful solutions",
+            "Temporarily took on the Product Owner role",
+            "Led pull request reviews ensuring code quality",
+            "Mentored and onboarded new team members",
+            "Conducted technical interviews",
+            "Managed deployments ensuring smooth releases"
+          ],
+          "bg": [
+            "Ръководене на екипа за постигане на ефективни решения",
+            "Временно поемане на ролята на Product Owner",
+            "Ревюта на pull requests за осигуряване на качество на кода",
+            "Наставляване и обучение на нови членове на екипа",
+            "Провеждане на технически интервюта",
+            "Управление на деплойменти"
+          ],
+          "de": [
+            "Teamleitung und Koordination zur Lieferung wirkungsvoller Lösungen",
+            "Vorübergehende Übernahme der Product-Owner-Rolle",
+            "Leitung von Pull-Request-Reviews zur Sicherstellung der Code-Qualität",
+            "Mentoring und Einarbeitung neuer Teammitglieder",
+            "Durchführung technischer Interviews",
+            "Verwaltung von Deployments für reibungslose Releases"
+          ]
+        },
+        "techTags": ["Java", "Spring Boot", "Azure", "Angular"]
+      },
+      {
+        "title": "Java Back-end Developer",
+        "company": "Brain Stars Technology",
+        "dates": {
+          "en": "Feb 2023 — Jun 2023",
+          "bg": "Фев 2023 — Юни 2023",
+          "de": "Feb 2023 — Jun 2023"
+        },
+        "badge": { "en": "Remote", "bg": "Дистанционно", "de": "Remote" },
+        "description": {
+          "en": "Hired for a new project. Strengthened AWS and cloud skills during the bench period.",
+          "bg": "Нает за нов проект. Укрепване на AWS и облачни умения.",
+          "de": "Eingestellt für ein neues Projekt. Vertiefung von AWS- und Cloud-Kenntnissen während der Einarbeitungszeit."
+        },
+        "techTags": ["Java", "Jenkins", "AWS"]
+      },
+      {
+        "title": "Full-stack Developer",
+        "company": "Resolve Systems",
+        "dates": {
+          "en": "Jul 2022 — Nov 2022",
+          "bg": "Юли 2022 — Ное 2022",
+          "de": "Jul 2022 — Nov 2022"
+        },
+        "badge": { "en": "Sofia, On-site", "bg": "София, На място", "de": "Sofia, Vor Ort" },
+        "description": {
+          "en": "Worked on the next versions of the Resolve Insights product.",
+          "bg": "Работа по следващите версии на продукта Resolve Insights.",
+          "de": "Arbeit an den nächsten Versionen des Produkts Resolve Insights."
+        },
+        "techTags": ["Python", "Java"]
+      },
+      {
+        "title": "Full-stack Developer",
+        "company": "Nevexis Ltd",
+        "dates": {
+          "en": "Jul 2017 — Jun 2022",
+          "bg": "Юли 2017 — Юни 2022",
+          "de": "Jul 2017 — Jun 2022"
+        },
+        "badge": { "en": "Sofia, On-site", "bg": "София, На място", "de": "Sofia, Vor Ort" },
+        "description": {
+          "en": "Worked on projects for the financial industry for 5 years, building robust banking applications.",
+          "bg": "Работа по проекти за финансовата индустрия в продължение на 5 години, изграждане на надеждни банкови приложения.",
+          "de": "5 Jahre Arbeit an Projekten für die Finanzbranche, Entwicklung robuster Bankanwendungen."
+        },
+        "techTags": ["Java", "Spring Boot", "Oracle", "PostgreSQL", "Angular", "Microservices"]
+      }
+    ]
+  },
+
+  "projects": {
+    "heading": { "en": "Projects", "bg": "Проекти", "de": "Projekte" },
+    "comingSoon": { "en": "Coming soon...", "bg": "Очаквайте скоро...", "de": "Demnächst..." },
+    "items": []
+  },
+
+  "footer": {
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/asen1995" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/asen-nikolaev-414586133/" },
+      { "label": "Facebook", "url": "https://www.facebook.com/asen.nikolaev.3/" },
+      { "label": "Google Play", "url": "https://play.google.com/store/apps/developer?id=Asen+Nikolaev" }
+    ],
+    "copyright": { "en": "\u00a9 2025 Asen Nikolaev", "bg": "\u00a9 2025 Асен Николаев", "de": "\u00a9 2025 Asen Nikolaev" }
+  }
+}
